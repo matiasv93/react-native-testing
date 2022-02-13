@@ -11,6 +11,7 @@
   "dependencies": {
     "@monorepo-template/lib": "*",
     "axios": "^0.24.0",
+    "big-js": "^3.1.3",
     "react": "17.0.2",
     "react-native": "0.66.4"
   },
