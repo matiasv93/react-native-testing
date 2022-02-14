@@ -4,7 +4,9 @@
   "main": "src/index.ts",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon --watch '*.ts' --exec 'ts-node' src/index.ts"
+    "dev": "nodemon --watch '*.ts' --exec 'ts-node' src/index.ts",
+    "test": "TZ=UTC jest",
+    "test-c": "yarn jest --ci --colors --runInBand --reporters=default --reporters=jest-junit --coverage"
   },
   "dependencies": {
     "@monorepo-template/lib": "*",

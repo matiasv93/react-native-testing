@@ -13,7 +13,8 @@
     "ios": "(cd packages/mobile && yarn ios)",
     "web": "(cd packages/web && yarn start)",
     "android": "(cd packages/mobile && yarn android)",
-    "test": "TZ=UTC jest"
+    "test": "TZ=UTC jest",
+    "test-c": "yarn jest --ci --colors --runInBand --reporters=default --reporters=jest-junit --coverage"
   },
   "author": "Matias Vazquez <matias.vazquez.93@gmail.com>",
   "license": "MIT",

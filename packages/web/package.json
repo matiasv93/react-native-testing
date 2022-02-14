@@ -13,6 +13,7 @@
     "@monorepo-template/lib": "*",
     "babel-plugin-import": "^1.13.3",
     "customize-cra": "^1.0.0",
+    "jest-junit": "^13.0.0",
     "react": "^17.0.2",
     "react-app-rewired": "^2.1.11",
     "react-dom": "^17.0.2",
@@ -24,8 +25,9 @@
   "scripts": {
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
-    "test": "react-app-rewired test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "test": "TZ=UTC jest",
+    "test-c": "yarn jest --ci --colors --runInBand --reporters=default --reporters=jest-junit --coverage"
   },
   "browserslist": {
     "production": [
