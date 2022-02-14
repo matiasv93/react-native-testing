@@ -5,14 +5,14 @@ module.exports = {
       '@babel/preset-env',
       {
         targets: {
-          node: 'current'
-        }
-      }
+          node: 'current',
+        },
+      },
     ],
-    'module:metro-react-native-babel-preset'
+    'module:metro-react-native-babel-preset',
   ],
   plugins: [
     '@babel/plugin-proposal-class-properties',
-    '@babel/plugin-proposal-private-methods'
-  ]
-}
+    '@babel/plugin-proposal-private-methods',
+  ],
+};

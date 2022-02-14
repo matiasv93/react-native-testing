@@ -1,18 +1,18 @@
-import express from 'express'
-import { Product } from '@monorepo-template/lib/interfaces/product'
+import express from 'express';
+import {Product} from '@monorepo-template/lib/interfaces/product';
 
-const routes = express.Router()
+const routes = express.Router();
 
 interface Response {
-  list: Product[]
+  list: Product[];
 }
 
 const response: Response = {
-  list: [{ name: 'test' }]
-}
+  list: [{name: 'test'}],
+};
 
 routes.get('/', (req, res) => {
-  return res.json(response)
-})
+  return res.json(response);
+});
 
-export default routes
+export default routes;

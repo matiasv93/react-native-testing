@@ -13,7 +13,7 @@
     "ios": "(cd packages/mobile && yarn ios)",
     "web": "(cd packages/web && yarn start)",
     "android": "(cd packages/mobile && yarn android)",
-    "test": "jest"
+    "test": "TZ=UTC jest"
   },
   "author": "Matias Vazquez <matias.vazquez.93@gmail.com>",
   "license": "MIT",

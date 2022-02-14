@@ -1,7 +1,7 @@
-import React from 'react'
-import { Button as LibButton } from '@monorepo-template/lib/components/button'
+import React from 'react';
+import {Button as LibButton} from '@monorepo-template/lib/components/button';
 
-import { Text } from '@radium/core.uiweb.text'
+import {Text} from '@radium/core.uiweb.text';
 
 const App = () => {
   return (
@@ -14,14 +14,13 @@ const App = () => {
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
-          rel="noopener noreferrer"
-        >
+          rel="noopener noreferrer">
           <Text>React native Text</Text>
           <LibButton>Workspace Button</LibButton>
         </a>
       </header>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
