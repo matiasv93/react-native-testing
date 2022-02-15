@@ -24,11 +24,10 @@ DerivedData
 # Android/IntelliJ
 #
 build/
-dist
 .idea
 .gradle
 local.properties
-*.im
+*.iml
 *.hprof
 
 # node.js
@@ -36,8 +35,6 @@ local.properties
 node_modules/
 npm-debug.log
 yarn-error.log
-coverage
-junit.xml
 
 # BUCK
 buck-out/
