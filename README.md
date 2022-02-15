@@ -36,5 +36,7 @@ A branch is going to be created for each specific lecture in which the participa
 
 e.g
 If the first lecture has a branch named 'first-lecture', then the students branch should be parted from it
+
 first-lecture/firstName-lastName
+
 In their personal branch 'firstName-lastName' they should solve the lecture's asynchronous material and create a PR for it.
